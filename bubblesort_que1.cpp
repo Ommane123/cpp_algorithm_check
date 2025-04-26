@@ -49,9 +49,12 @@ int main()
     }
     cout << endl;
 
+    cout << "Note - In Bubble Sort repeatedly swap elements if they are in wrong order" << endl;
+
     // The Maximum no of swaps in worst case in bubble sort is = n-1 + n - 2 + .....+1;
     // which is n(n-1)/2
 
     // Time complexity : depends on n(n-1)/2  therefore, = O(n^2) due to ignoring constant
     // Space complexity : O(1)
+    // bubble sort is stable algo
 }

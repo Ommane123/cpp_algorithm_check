@@ -48,5 +48,5 @@ int main()
 
     // Time complexity = n(n-1)/2; = O(n^2)
     // Space Complexity = O(1)
-    // It is a stable sorting algorithm
+    // It is a unstable sorting algorithm
 }

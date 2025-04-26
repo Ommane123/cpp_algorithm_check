@@ -49,6 +49,8 @@ int main()
     }
     cout << endl;
 
+    return 0;
+
     // The Maximum no of swaps in worst case in bubble sort is = n-1 + n - 2 + .....+1;
     // which is n(n-1)/2
 

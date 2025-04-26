@@ -44,6 +44,8 @@ int main()
         cout << v[i] << " ";
     }
     cout << endl;
+
+    cout << "Repeatedly find the minimum element in unsorted array and put it at beginning" << endl;
     return 0;
 
     // Time complexity = n(n-1)/2; = O(n^2)

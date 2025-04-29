@@ -2,12 +2,20 @@
 #include <vector>
 using namespace std;
 
-int insertionSort(vector<int> &v)
+void insertionSort(vector<int> &v)
 {
     int n = v.size();
     for (int i = 1; i < n; i++)
     {
-        int current_index = i;
+        int current_index = v[i];
+
+        int j = i + 1;
+        while (j >= 0 && v[j] > current_index)
+        {
+            v[j + 1] = v[j];
+            j--;
+        }
+        v[j + 1] = current_index;
     }
     return;
 }

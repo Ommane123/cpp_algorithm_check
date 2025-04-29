@@ -8,14 +8,27 @@ int insertionSort(vector<int> &v)
     for (int i = 1; i < n; i++)
     {
         int current_index = i;
-        for (int j = i + 1; j < n; j++)
-        {
-        }
     }
+    return;
 }
 
 int main()
 {
+    int n;
+    cout << "Enter the size of String :" << endl;
+    cin >> n;
+    int vector<int> v(n);
+    for (int i = 0; i < n; i++)
+    {
+        cin >> v[i];
+    }
+
+    insertionSort(v);
+
+    for (int i = 0; i < n; i++)
+    {
+        cout << v[i];
+    }
 
     return;
 }

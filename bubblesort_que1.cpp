@@ -14,7 +14,7 @@ void swap_zeros_to_end(vector<int> &v)
 
         while (j != i)
         {
-            if (v[i] == 0 && v[j + 1] != 0)
+            if (v[j] == 0 && v[j + 1] != 0)
             {
                 swap(v[j], v[j + 1]);
                 flag = true;

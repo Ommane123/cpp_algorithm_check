@@ -1,6 +1,30 @@
 #include <iostream>
 #include <vector>
 using namespace std;
+
+void swap_zeros_to_end(vector<int> &v)
+{
+
+    int n = v.size();
+
+    for (int i = n - 1; i >= 0; i--)
+    {
+        int j = 0;
+        bool flag = false;
+
+        while (j != 0)
+        {
+            if (v[i] == 0 && v[j + 1] != 0)
+            {
+                swap(v[j], v[j + 1]);
+                flag = true;
+            }
+        }
+    }
+
+    return;
+}
+
 int main()
 {
 

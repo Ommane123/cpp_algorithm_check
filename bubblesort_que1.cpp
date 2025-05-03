@@ -1,3 +1,4 @@
+// Que : Given an integer array arr, move all 0's to the end of it while maintaining the reverse order of the non zero elements
 #include <iostream>
 #include <vector>
 using namespace std;

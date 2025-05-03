@@ -19,6 +19,7 @@ void swap_zeros_to_end(vector<int> &v)
                 swap(v[j], v[j + 1]);
                 flag = true;
             }
+            j++;
         }
     }
 

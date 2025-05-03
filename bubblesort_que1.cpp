@@ -21,6 +21,8 @@ void swap_zeros_to_end(vector<int> &v)
             }
             j++;
         }
+        if (!flag)
+            break;
     }
 
     return;

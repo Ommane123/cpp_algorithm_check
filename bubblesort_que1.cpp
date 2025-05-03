@@ -12,7 +12,7 @@ void swap_zeros_to_end(vector<int> &v)
         int j = 0;
         bool flag = false;
 
-        while (j != 0)
+        while (j != i)
         {
             if (v[i] == 0 && v[j + 1] != 0)
             {

@@ -53,9 +53,23 @@ void mergesort(int arr[], int l, int r)
     {
         return;
     }
+
+    int mid = (l + r) / 2;
+    mergesort(arr, l, mid);
+    mergesort(arr, mid + 1, r);
+    merge(arr, l, mid, r);
 }
 
 int main()
 {
+    int arr[] = {10, 28, 24, 6, 34, 18, 38, 44};
+    int n = sizeof(arr) / sizeof(arr[0]);
+
+    mergesort(arr, 0, n - 1);
+    for (int i = 0; i < n; i++)
+    {
+        cout << arr[i] << " ";
+    }
+
     return 0;
 }

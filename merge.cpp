@@ -73,3 +73,7 @@ int main()
 
     return 0;
 }
+
+// Time complexity = t(n) = nlogn
+// use masters theorm to find out the time complexity of divide and conqure method based sorting algorithm.
+// Stable Algorithm

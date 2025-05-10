@@ -20,9 +20,9 @@ void merge(int arr[], int l, int mid, int r)
         b[j] = arr[mid + 1 + j];
     }
 
-    int i = 0;
-    int j = 0;
-    int k = l;
+    int i = 0; // initial index of first subarray a
+    int j = 0; // initial index of second subarray b
+    int k = l; // initial index of merge subarray
 
     while (i < an && j < bn)
     {

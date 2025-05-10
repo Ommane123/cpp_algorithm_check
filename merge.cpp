@@ -19,6 +19,10 @@ void merge(int arr[], int l, int mid, int r)
     {
         b[j] = arr[mid + 1 + j];
     }
+
+    int i = 0;
+    int j = 0;
+    int k = l;
 }
 
 int main()

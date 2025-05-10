@@ -46,6 +46,15 @@ void merge(int arr[], int l, int mid, int r)
     }
 }
 
+void mergesort(int arr[], int l, int r)
+{
+    // base case
+    if (l >= r)
+    {
+        return;
+    }
+}
+
 int main()
 {
     return 0;

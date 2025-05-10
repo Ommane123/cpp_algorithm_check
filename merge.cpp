@@ -35,6 +35,15 @@ void merge(int arr[], int l, int mid, int r)
             arr[k++] = b[j++];
         }
     }
+
+    while (i < an)
+    {
+        arr[k++] = a[i++];
+    }
+    while (j < bn)
+    {
+        arr[k++] = b[j++];
+    }
 }
 
 int main()

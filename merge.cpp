@@ -23,6 +23,18 @@ void merge(int arr[], int l, int mid, int r)
     int i = 0;
     int j = 0;
     int k = l;
+
+    while (i < an && j < bn)
+    {
+        if (a[i] < b[j])
+        {
+            arr[k++] = a[i++];
+        }
+        else
+        {
+            arr[k++] = b[j++];
+        }
+    }
 }
 
 int main()

@@ -56,3 +56,7 @@ int main()
 }
 
 // Time complexity = worst case O(n^2)
+
+// Space COmplexity = O(n) worst case
+
+//  unstable algorithm

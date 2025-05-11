@@ -54,3 +54,5 @@ int main()
 
     return 0;
 }
+
+// Time complexity = worst case O(n^2)

@@ -16,6 +16,8 @@ int main()
 {
 
     // Recursion leads to stack overflow.
+    // Base case is the last recursive step where the recursion stops
+    // Stack Space stores the yet to be executed recursions or  data
 
     recur();
     return 0;

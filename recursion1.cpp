@@ -3,6 +3,12 @@ using namespace std;
 
 int sumation(int i, int sum)
 {
+    if (i < 1)
+    {
+        cout << sum << endl;
+        return;
+    }
+    sumation(i - 1, sum + 1);
 }
 
 int main()

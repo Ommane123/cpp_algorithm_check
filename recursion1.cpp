@@ -6,9 +6,9 @@ int sumation(int i, int sum)
     if (i < 1)
     {
         cout << sum << endl;
-        return;
+        return 0;
     }
-    sumation(i - 1, sum + 1);
+    sumation(i - 1, sum + i);
 }
 
 int main()
